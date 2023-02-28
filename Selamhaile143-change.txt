@@ -1,1 +1,2 @@
-Testing cloned file
+Testing a cloned file
+Testing pushed file
