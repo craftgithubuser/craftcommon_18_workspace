@@ -1,0 +1,2 @@
+git pull orgin 
+git push orgin main
