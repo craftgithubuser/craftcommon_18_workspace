@@ -1,0 +1,2 @@
+I was trying to branch a simple txt document by creating txt doc via VI command through git bash itself.
+poor me
