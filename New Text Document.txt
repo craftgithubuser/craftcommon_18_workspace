@@ -6,3 +6,12 @@
 </note>5:36 PM 3/2/2023 
 /this note stored as xml/ 
 20;45
+{
+  "note":{ 
+
+        "to": "craft_team",
+        "from": "smakuannit",
+        "heading": "Reminder",
+         "body": "Don't late thursday class!"
+
+}
