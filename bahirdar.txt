@@ -1,0 +1,9 @@
+<note>
+  <to>soresa</to>
+  <from>saife</from>
+  <heading>Reminder</heading>
+  <body>nice to meet u !</body>
+</note>
+/this note stored as xml/
+
+great

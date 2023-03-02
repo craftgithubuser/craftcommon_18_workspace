@@ -1,1 +1,7 @@
-Hello Team
+<note>
+  <to>craft_team</to>
+  <from>smakuannit</from>
+  <heading>Reminder</heading>
+  <body>Don't late thursday class !</body>
+</note>
+/this note stored as xml/ 
