@@ -4,4 +4,4 @@
   <heading>Reminder</heading>
   <body>Don't late thursday class !</body>
 </note>
-/this note stored as xml/
+/this note stored as xml/ 
