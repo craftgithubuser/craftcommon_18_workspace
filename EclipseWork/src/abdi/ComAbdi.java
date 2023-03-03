@@ -13,8 +13,8 @@ public class ComAbdi {int height, weight;
   }
   public static void main(String[] args) {
     ComAbdi a = new ComAbdi(6,182);
-    System.out.println("my h" + a.getHeight());
-    System.out.println("my w" + a.getWeight());
+    System.out.println(" h is " + a.getHeight());
+    System.out.println(" w is " + a.getWeight());
 
 	}
 
