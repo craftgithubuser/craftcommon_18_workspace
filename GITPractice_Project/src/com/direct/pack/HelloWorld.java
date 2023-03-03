@@ -7,7 +7,7 @@ public class HelloWorld {
 		// variable or field to store data
 		// methods to perform operations on the field
 		System.out.println("Hello");
-
+solomon new chnge
 	}
 
 }
