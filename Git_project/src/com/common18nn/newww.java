@@ -1,5 +1,2 @@
-package com.common18nn;
+package com.common18nn;{hello}
 
-public class newww {
-
-}
