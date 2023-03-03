@@ -16,7 +16,7 @@ public class ComAbdi {int height, weight;
     System.out.println(" h is " + a.getHeight());
     System.out.println(" w is " + a.getWeight());
     System.out.println(" w eightis " + a.getWeight());
-    System.out.println(" weightttttttttttt is " + a.getWeight());
+    System.out.println(" weightt is " + a.getWeight());
 
 	}
 
