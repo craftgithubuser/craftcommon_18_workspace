@@ -10,6 +10,7 @@ public class Sum {
        
        sum= a+b;
        System.out.println(sum);
+       System.out.println("Java");
 
 	}
 
