@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author aynal
+ *
+ */
+module anyeproj {
+}
