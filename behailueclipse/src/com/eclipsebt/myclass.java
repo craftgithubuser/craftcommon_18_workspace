@@ -1,9 +1,9 @@
-package com.behailu2;
+package com.eclipsebt;
 
-public class classtwo {
+public class myclass {
 	public static void  main(String  args []) {
-		System.out.println("successpath");
 		System.out.println("coming soon");
 		System.out.println("from dusk till down");
-	}
+		
+}
 }
