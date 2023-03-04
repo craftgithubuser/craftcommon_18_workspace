@@ -7,6 +7,8 @@ public class exaple02 {
 
 		System.out.println("hello class");
 		System.out.println("hello class");
+		System.out.println("gitlab");
+		
 		
 	}
 
