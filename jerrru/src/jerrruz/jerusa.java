@@ -6,7 +6,7 @@ public class jerusa {
 		int a, b;
 		a = 10;
 		b = 20;
-
+         
 		 int sum = a + b;
 		// result of two integers sum and product
 		int result = sum - a * b;
