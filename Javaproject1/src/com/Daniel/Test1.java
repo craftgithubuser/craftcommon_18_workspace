@@ -7,6 +7,7 @@ public class Test1 {
 
 		System.out.println("hello class");
 		System.out.println("printing copy");
+		System.out.println("publish");
 	}
 
 }
