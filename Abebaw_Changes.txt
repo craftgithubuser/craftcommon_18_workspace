@@ -1,3 +1,0 @@
-Hello Team;
-This my updated file pushed to Github.
-Thanks.
