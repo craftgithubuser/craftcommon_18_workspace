@@ -7,6 +7,7 @@ public class ExampleGit {
 		
 		System.out.println("Hello world");
 		System.out.println("comit git exercise");
+		System.out.println("exercise one");
 
 	}
 
