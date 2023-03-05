@@ -1,1 +1,1 @@
-git desktop proj.
+git project practice
