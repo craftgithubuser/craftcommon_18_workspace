@@ -21,7 +21,7 @@ public class Love {
 		System.out.println("Like a method that always returns a positive case.");
 		System.out.println("I promise to love " + you + " like a constant,");
 		System.out.println("And be " + you + "'s support like a try-catch statement.");
-
+		
 		System.out.println("\n" + us + " are like a program that's perfectly compiled,");
 		System.out.println("A love so true, it can never be uninstalled.");
 		System.out.println("I'll be " + you + "'s partner for life like a Java class,");
