@@ -8,5 +8,7 @@ public class Test3 {
 	      sum += i;
 	    }
 	    System.out.println(sum);
+	    
+	    
 	  }
 	}
