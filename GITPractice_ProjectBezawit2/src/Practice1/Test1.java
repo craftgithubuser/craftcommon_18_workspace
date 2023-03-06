@@ -6,3 +6,10 @@ public class Test1 {
 		
 	}
 }
+//print static:
+//type "main" and press Ctrl + space
+
+// System. out. println() in eclipse: 
+//type "sysout" (without the quotes), 
+//then hit Ctrl + Space.
+//
