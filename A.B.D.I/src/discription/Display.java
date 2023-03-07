@@ -8,12 +8,10 @@ public class Display {
 		 char Last_name_initial = 'D';
 		 double height = 6.2 ;
 		 int weight = 182 ;
+		 int age = 144;
 		 
-		System.out.println("first name initial " + first_name_initial);
-		System.out.println("middle name  initial " + Middle_name_initial);
-		System.out.println("Last Name Initial "+ Last_name_initial);
-		System.out.println("I'm " + height + " tall" );
-		System.out.println("I'm " + weight + " lbs" );
+	System.out.println("His name is  " + first_name_initial + " " + Middle_name_initial + " " + Last_name_initial);
+	System.out.println("His age is  " + age + " " + "old" + " " + "He weights " + " " + weight + " " + "lb" + " " + "and " + " " + "His height is " + " " + height + " " + "ft");
 
 	}
 

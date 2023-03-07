@@ -16,12 +16,13 @@ public static void main(String[] args) {
 	            double salary = 3452.453;
 	            String Learn = "I never thought I will learn coding in my life.";
 	            String Life = "The beauty of life is the change it brings.";
+	            String Today = "Today i went to a meeting.";
 		
 	    System.out.println("client_Name:" + firstName + " " + lastName);
 	    System.out.println("client_age:" + Age);
 	    System.out.println("client_address:" + address + " " + city + " " + state + " " + postalcode);
 	    System.out.println("client_salary:" + salary);
-	    System.out.println("Note:" + Learn + " " + Life);
+	    System.out.println("Note:" + Learn + " " + Life + " " + Today);
 	   
 	    
 
