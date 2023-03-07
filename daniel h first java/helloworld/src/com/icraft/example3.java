@@ -1,12 +1,11 @@
-package Solo_package;
+package com.icraft;
 
-public class Solo_Class {
+public class example3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-// check this change
+
 		
-		//new new update 
 	}
 
 }
