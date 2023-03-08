@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author ameku
+ *
+ */
+module craftproject {
+}
