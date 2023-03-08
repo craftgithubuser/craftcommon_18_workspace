@@ -1,8 +1,7 @@
 public class class1 {
-    public static void main(String[] args) {
+    public void myMethod() {
         System.out.println("Hello world!");
         System.out.println("Hello world!");
         System.out.println("Hello world!");
-        //changed1leihkj
     }
 }
