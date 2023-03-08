@@ -7,7 +7,7 @@ public class Newjava1 {
 
 	
 		System.out.println("print something");
-		System.out.println("try hard");
+		System.out.println("try work hard byby");
 	}
 	
 
