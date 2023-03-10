@@ -7,7 +7,7 @@ public class Newjava1 {
 
 	
 		System.out.println("print something");
-		System.out.println("heollo");
+		System.out.println("heollo tem");
 	}
 	
 
