@@ -10,8 +10,13 @@ public class Sum {
        System.out.println(z);
        double y=  Div(2500.4, 2.2);
        System.out.println(y);
+       String Name=("Hanna");
+       String Name1=("Honey");
+       String Name2=("Huda");
        
-       
+       System.out.println(Name);
+       System.out.println(Name1);
+       System.out.println(Name2);
        sum= a+b;
        System.out.println(sum);
        System.out.println("Java");
