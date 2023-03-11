@@ -12,6 +12,7 @@ public class jerusa {
 		int result = sum - a * b;
 		//System.out.println(sum);
 		System.out.println(result);
+	
 
 	}
 
