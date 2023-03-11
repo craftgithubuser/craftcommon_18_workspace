@@ -1,0 +1,14 @@
+SELECT item FROM Orders 
+WHERE date ALL = (SELECT Order_ID FROM Orders
+WHERE quantity > 50)
+*/
+ 
+/* the SQL query below the will be executed 
+ignoring the text after "--"
+*/
+ 
+SELECT item -- single comment  
+FROM Orders -- another single comment
+WHERE id 
+ALL = (SELECT ID FROM Orders
+WHERE quantity > 25)
