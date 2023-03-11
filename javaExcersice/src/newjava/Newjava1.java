@@ -6,8 +6,11 @@ public class Newjava1 {
 		// TODO Auto-generated method stub
 
 	
-		System.out.println("print something");
-		System.out.println("heollo tem");
+		System.out.println("print something shine");
+		System.out.println("heollo tem 21"); 
+	
+		
+		
 	}
 	
 
