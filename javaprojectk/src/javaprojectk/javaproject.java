@@ -1,10 +1,10 @@
-package com.project;
+package javaprojectk;
 
-public class Test2 {
+public class javaproject {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("heloo world");
+
 	}
 
 }
