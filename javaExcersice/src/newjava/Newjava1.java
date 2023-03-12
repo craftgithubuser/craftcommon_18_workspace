@@ -8,6 +8,7 @@ public class Newjava1 {
 	
 		System.out.println("print something shine");
 		System.out.println("heollo tem 21"); 
+	System.out.println("to push");
 	
 		
 		
