@@ -1,0 +1,197 @@
+
+1.       Create a database or  Schema called MyDB
+
+create schema MyDB1;
+
+2.       Create a table  name customers
+
+use MyDB1;
+
+create table customers(
+cust_id int auto_increment not null,
+cust_firstname varchar(20) not null,
+cust_lastname varchar(20) not null,
+cust_nickname varchar(20),
+cust_age int,
+cust_gender char not null,
+cust_country varchar(30) not null,
+cust_salary decimal not null,
+primary key (cust_id));
+
+3.	 add column Using alter 
+
+            -- Name= bonus
+            -- DataType= Integer
+            -- It doesn't accept null value
+
+alter table customer
+add column bonus int not null;
+
+4.	 modify column using alter
+
+            -- Name = Age
+            -- Datatype = Integer,
+            -- to not accept null value
+
+alter table customer
+modify cust_age int not null;
+
+7.	Delete column using alter
+
+            -- Name = NickName
+            -- Name = bonus
+
+alter table customers 
+drop column cust_NickName;
+
+Alter table customers
+drop column bonus; 
+
+8.	 Rename Customers Table to Customer Table
+
+Rename table customers to customer;
+
+9.	-- Drop table Customer
+
+drop table customer;
+
+10.	Drop DataBase/schema
+
+drop database MyDB;
+
+11.	 Again Recreate Schema/DataBase MyDB after we Drop the schema
+
+create database MyDB;
+
+
+
+12.	- Again Recreate the table Customers with all of it columns after we Drop the customer table 
+
+create table customers(
+cust_id int auto_increment not null,
+cust_firstname varchar(20) not null,
+cust_lastname varchar(20) not null,
+cust_nickname varchar(20),
+cust_age int,
+cust_gender char not null,
+cust_country varchar(30) not null,
+cust_salary decimal not null,
+primary key (cust_id));
+
+
+
+
+ 
+ alter table customer
+ add column cust_nickname varchar (20) after cust_lastname;
+
+
+
+ insert into customer
+ values(111,'nick','jones','NJ',25,'M','USA',20000000),
+ (222,'Antony','Martial','AM',30,'M','France',10000000),
+ (333,'Rose','Geller','RG',45,'M','Uzbekistan',36000000),
+ (444,'Chandler','Bing','CB',21,'M','Unknown',340000000),
+ (555,'Rachel','Green','RG',35,'F','Kazakhistan',400000),
+ (666,'Nick','jones','NJ',18,'M','USA',20000000),
+ (777,'Poul','Pogba','PP',28,'M','France',20000000),
+ (888,'Joey','Tribbiani','JT',37,'M','Ethiopia',70000000
+
+
+
+13.     Write a query which display all Records from the table?
+select * from customer;
+
+14.      Write a query which display all columns from the table where  there Citizenship is Ethiopian?
+
+select * from customer 
+where cust_country = Ethiopia;
+
+15.  Write a query which display all columns from the table where  there Salary greater than 5million?
+
+select * from customer
+where cust_salary > 5000000;
+
+16.      Write a query which display all Male Customers FirstName, LastName and Country?
+
+select cust_firstname, cust_lastname, cust_country
+from customer
+where cust_gender = 'm';
+
+17.    Write a query which display only distinct Country?
+
+select distinct cust_country
+from customer;
+
+18.     Write a query which display all Female Customers FirstName, LastName and Country in  descending?
+select cust_firstname, cust_lastname, cust_country
+from customer
+where cust_gender = 'f'
+order by cust_firstname, cust_lastname, cust_country desc;
+
+19.      Write a query that display all records from the table where Gender female, Here salary is greater than 2million and also Here Citizenship is Ethiopian?
+
+select * from customer
+where cust_gender = 'f' and cust_salary >5000000 and cust_country = Ethiopia;
+
+20.       Write a query that display all records from the table where there Citizenship is Ethiopian or uzbekistan?
+
+select * from customer
+where cust_country = Ethiopia or uzbekistan;
+
+21.      Write a query that display Minimum Salary from the table?
+
+select min(cust_salary) as minsalary
+from customer;
+
+22.     Write a query that display Maximum Fees from the table?
+
+select max(cust_salary) as maxsalary
+from customer;
+
+23.      Write a query that display Number of Customer We have in the table?
+
+select count(*) as numberofcustomers
+from customer;
+
+24.      Write a query that display Average Salary from the record?
+
+select avg(cust_salary) as average 
+from customer;
+
+25.       Write a query that display The sum of all customers Fees?
+
+select sum(cust_salary) as sumsalary
+from customer;
+
+26.    Write a query that display all the record where there salary is between 2million and 8million?
+
+select * from customer 
+where cust_salary between 2000000 and 8000000;
+
+27.  Write a query that display all the record where there firstName start with 'S'?
+
+select * from customer
+where cust_firstname like 's%'
+
+28.     Write a query that display all the record where there firstName have 'e' in the second position and His/er lastName have end with 'e'?
+
+select * from customer
+where cust_firstname like '_e%',
+where cust_lastname like '%e';
+
+29.     Write a query that display all the record where there LastName that start with 'p' and ends with 'a'?
+
+select * from customer
+where cust_lastname like 'p%a';
+
+
+30.    Write a query that display all the customers from Ethiopia, USA and France?
+
+select * from customer
+where cust_country = Ethiopia and USA and France; 
+
+
+
+
+
