@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author kushe
+ *
+ */
+module hailu {
+}
