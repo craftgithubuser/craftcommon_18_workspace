@@ -1,0 +1,47 @@
+drop database mydb2;
+
+create database mydb2;
+
+use mydb2;
+
+create table customers(
+cust_id int auto_increment unique,
+cust_firstname varchar (20) not null,
+cust_lastname varchar (20) not null,
+cust_nickname varchar (20),
+cust_age int ,
+cust_gender char not null,
+cust_country varchar (20) not null,
+cust_salary decimal not null);
+
+alter table customers
+add column cust_bonus decimal not null;
+
+alter table customers
+modify cust_age int not null;
+
+alter table customers
+drop column cust_nickname,
+drop column cust_bonus;
+
+rename table customers to customer;
+
+
+insert into customer(cust_id,cust_firstname,cust_lastname,cust_age,cust_gender,cust_country,cust_salary) 
+values (111,"Nick","jhon",20,'m',"USA",20000000),
+ (222,"antony","martial",40,'m',"france", 10000000),
+ (333,"ross","geller",18,'m',"uzbekistan",36000000),
+ (444,"chandler","bing",24,'m',"unkown",34000000),
+ (555,"rachel","green",28,'f',"kazakhstan",400000),
+ (999,"nick","jones",32,'m',"usa",20000000),
+ (777,"poul","pogba",27,'m',"france",20000000),
+ (888,"joey","tribbiani",24,'m',"ethiopia",70000000);
+ select * from customer;
+
+update customer
+ set cust_id = 333444555
+ where cust_country = "Ethiopia";
+
+
+ 
+ 
