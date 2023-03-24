@@ -1,0 +1,52 @@
+
+1. Data is a collection of information gathered by observation, measurements,research/analysis.
+examples can be numbers, names, objects, images, texts…
+
+2. Information is the processed form of data, it's a fact that is provided or learned about something or someone.
+
+3.Database is a systematic collection of related data that represent some real world entities.
+
+4.RDBMS is a software application that interacts with users, applications, even the database itself to capture and analyze data.
+
+5.Uses of RDBMS
+          -  can easily manage large amounts of information.
+	 -  security
+          -  backups
+
+6.Relational database/SQL -  store data in the form of a table.
+  Non relational database/no SQL - stores data in the form of a document.
+
+7.Examples of relational database Oracle, MySQL, Microsoft SQL
+
+8.Examples of non relational database Mongo database, couch database.
+
+9.SQL is a relational database which is used for accessing and managing databases. We use it to define tables and structures.
+
+
+
+10. DDL - Data Definition Language 
+Used to change or modify the structure of a database.
+We can do things like deleting table, creating table,
+It auto commits the changes we make permanently.
+      
+ DML - Data Manipulation Language
+It manipulates the stored data.
+It uses commands like insert, select, delete, update.
+It does not auto commit the changes we make.
+
+DCL  - Data Control Language      
+It allows us to control access to the database; granting or revoking access to the database.
+
+TCL - Transaction Control Language
+  commands used to manage the changes made by DML.
+        Eg: commit, savepoint, transaction, rollback.
+
+11. Table is a basic element of relational databases. It stores data in tabular format and means the system organizes data in rows and columns.
+
+12.  Row is a series of data put horizontally in a table/spreadsheet, while column is a vertical series  of cells in a table/spreadsheet.
+
+
+
+     
+
+
