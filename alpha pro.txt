@@ -1,0 +1,19 @@
+
+<types>
+  data type definitions........
+</types>
+
+<message>
+  definition of the data being communicated....
+</message>
+
+<portType>
+  set of operations......
+</portType>
+
+<binding>
+  protocol and data format specification....
+</binding>
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 ...;
