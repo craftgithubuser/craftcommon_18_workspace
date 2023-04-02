@@ -1,0 +1,63 @@
+create database studentdb;
+use studentdb;
+create table student1(
+id int,
+first_name varchar (20),
+last_name varchar (20),
+gender char,
+age int,
+salary decimal,
+department varchar (20));
+
+alter table student1
+rename column age to stud_age;
+
+alter table student1
+add primary key (id);
+
+desc student1;
+
+create table farmers(
+id int not null,
+first_name varchar (15),
+last_name varchar (15),
+age int);
+
+create table farmers (
+id int primary key not null,
+first_name varchar (15),
+last_name varchar (15),
+abe int default 18); 
+alter table farmers
+alter column abe
+drop default;
+
+
+alter table farmers
+rename column abe to age;
+
+show tables;
+
+alter table farmers
+add column gender char;
+
+alter table student1
+modify column salary double;
+
+
+alter table student1
+drop column gender;
+
+alter table student1
+add column x int,
+add column y int,
+add column z int;
+
+alter table student1
+drop column x,
+drop column y,
+drop column z;
+
+desc student1;
+alter table student1
+add check (stud_age>=18);
