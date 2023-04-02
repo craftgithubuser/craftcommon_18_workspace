@@ -1,0 +1,7 @@
+public static void main(String[] args) {
+		 char first_name_initial = 'A' ;
+		 char Middle_name_initial = 'T'; 
+		 char Last_name_initial = 'D';
+		 double height = 6.2 ;
+		 int weight = 182 ;
+		 int age = 144
