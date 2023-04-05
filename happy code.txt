@@ -1,0 +1,58 @@
+#birth_year=input('enter your birth year:')
+#age=2023- int (birth_year)
+#print (age)
+
+#print(10*8)
+#course="pyton for biggner"
+#print(course.lower())
+
+#comming_home=input('exact day comming home:')
+#feres_lay_siwedku= 2023-int(comming_home)
+#print(feres_lay_siwedku)
+
+#birth_year=input('enter your birth year')
+#age=2023-int(birth_year)
+#print(age)
+
+#course='i love amelework'
+#print(course.replace('amelework','amy'))
+print(10+10.1)
+x=2
+y=3
+print(y!=x)
+
+
+#temprature=-39
+#if temprature >30:
+   # print("it's hot day")
+    #print("drink plenty of water")
+  #  print('done')
+#elif temprature >20:
+    #("it's nice day")
+   # print("done")
+#elif temprature >10 :
+   # print("it's a little bit cold")
+    #print("done")
+#else:
+   # print("it's cold")
+
+i=1
+#while i<=10:
+  #print(i*"*")
+  #i=i+1
+
+names= ["amelework","abebe","keder","zenahbezu","abeyot","mule","messi","deneberwa"]
+names[-1]="denber"
+print(names[-1])
+numbers= [1,2,3,4,5]
+for item in numbers:
+    print(item)
+
+
+    print('''ethiopia
+          in me'''
+        )
+
+    first_name='saife'
+    last_name='tefra'
+    print(first_name+ " " + last_name)
