@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author danie
+ *
+ */
+module Array {
+}
